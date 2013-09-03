@@ -74,7 +74,34 @@ Errors will be introduced
 Attempting to fix the errors will just result in more errors
 
 
-# Slowing it down..
+# Prevention
+
+Whilst it's not possible to stop software from aging, it is possible to slow
+down it's aging process
+
+
+## Designing for change
+
+ * Attempt to predict how the software will change
+ * Apply design principles to assist in this.
+   * Information Hiding
+   * Abstraction
+   * Separation of Concerns
+   * Data Hiding
+   * Object Oriented
+ * Organize for items that are likely to change
+
+
+## Why is this so hard?
+
+
+ * Impatience leads to denial
+ * Only thinking about what it needs to do _now_
+ * Not enough well designed programs to copy
+ * Design principles `!=` Programming language
+ * Little communication as a whole for programmers <small>(Is this still a
+   problem?)</small>
+ * Too much preaching to the choir
 
 
 # It's already old. Now what?
