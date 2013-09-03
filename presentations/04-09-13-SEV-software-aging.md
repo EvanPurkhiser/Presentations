@@ -18,3 +18,27 @@
  * Primary work on "Modular design" and "Information hiding"
  * Involved in technical activism and a push for the professionalization of
    software engineering
+
+
+Software is much like a human being, it **will** age over time
+
+
+# Why?
+
+
+## Two reasons...
+
+ 1. Decaying source code (Lack of movement)
+ 2. Poorly understood source code changes (Ignorant surgery)
+
+
+After many such changes, the original designers no longer understand the
+product. Those who made the changes never did. In other words, _nobody
+understand the modified product_
+
+
+<small>(aside)</small>
+### Software Aging `!=` Software buggy-ness
+
+However, the software buggy-ness may be due in part to the poorly understood
+changes made to the software
