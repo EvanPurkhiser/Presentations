@@ -42,3 +42,21 @@ understand the modified product_
 
 However, the software buggy-ness may be due in part to the poorly understood
 changes made to the software
+
+
+# What happens?
+
+
+# Slowing it down..
+
+
+# It's already old. Now what?
+
+
+# Planing ahead
+
+
+# Taking Action
+
+
+## Some Questions
