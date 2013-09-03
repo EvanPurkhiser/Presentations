@@ -47,6 +47,33 @@ changes made to the software
 # What happens?
 
 
+## Three main things
+
+
+## 1
+### Software gets fat
+
+Too keep up with demand for new features, code is piled into the project without
+any thought or planning
+
+Each new feature takes longer and longer and customers quickly lose interest in
+the product
+
+
+## 2
+### Performance hits
+
+Customers must upgrade their computers to achieve acceptable response times
+
+
+## 3
+### Loss in reliability
+
+Errors will be introduced
+
+Attempting to fix the errors will just result in more errors
+
+
 # Slowing it down..
 
 
