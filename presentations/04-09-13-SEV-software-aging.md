@@ -104,6 +104,40 @@ down it's aging process
  * Too much preaching to the choir
 
 
+## Documentation
+
+
+## Which also appears to be pretty hard...
+
+
+ * Documentation is often times ignored
+ * If it is written, it's poorly done and fragmented
+ * Hard to find or understand by future developers
+ * Becomes out of sync with the software and is ignored
+ * Takes _too much time_ or isn't _very exciting_
+
+
+## Code & Design reviews
+
+
+## And _of course_, once again...
+
+
+## This is hard...
+
+ * Education neglected the need for reviews
+ * No precise design documentation makes review hard
+ * No other developers to review
+ * Time constraints
+ * Programmers can be defensive about their code
+
+
+Get more serious about these things!
+
+
+## Aging will still happen. You _cannot predict the future_!
+
+
 # It's already old. Now what?
 
 
