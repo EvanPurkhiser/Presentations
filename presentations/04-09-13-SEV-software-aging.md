@@ -7,8 +7,6 @@
 
 
 # David L. Parnas
-
-
 ![Davic Lorge Parnas](http://i.imgur.com/3jfGtzd.jpg)
 
 
