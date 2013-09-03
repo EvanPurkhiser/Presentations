@@ -28,7 +28,7 @@ Software is much like a human being, it **will** age over time
 
 ## Two reasons...
 
- 1. Decaying source code (Lack of movement)
+ 1. Decaying source code / product (Lack of movement)
  2. Poorly understood source code changes (Ignorant surgery)
 
 
