@@ -141,6 +141,18 @@ Get more serious about these things!
 # It's already old. Now what?
 
 
+## Be proactive
+
+Maintenance changes should be made with the previous points in mind. Introduce /
+recreate structure
+
+
+ * Add documentation
+ * Modularize components and encapsulate logic
+ * Remove unneeded code
+ * Completely restructure the entire project
+
+
 # Planing ahead
 
 
