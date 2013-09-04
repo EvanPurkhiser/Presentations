@@ -174,3 +174,11 @@ When the time comes to add new features, make sure the time and people are there
 
 
 ## Some Questions
+ 1. How does open source software age differently from commercial / proprietary software?
+ 2. Is it ever a good idea to just scrap a project and restart?
+ 3. How do you convince the product owner of the importance of preventing software aging?
+ 4. What are best practices for documentation?
+
+---
+
+Slides at http://github.com/EvanPurkhiser/Presentations
