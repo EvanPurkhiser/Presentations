@@ -117,7 +117,7 @@ down it's aging process
  * Takes _too much time_ or isn't _very exciting_
 
 
-## Code & Design reviews
+## Code & Design peer reviews
 
 
 ## And _of course_, once again...
