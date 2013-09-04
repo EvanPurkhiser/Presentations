@@ -166,7 +166,11 @@ Stop worrying about "getting it to run". Don't act like there is no tomorrow
 When the time comes to add new features, make sure the time and people are there
 
 
-# Taking Action
+## Making progress
+
+ * There is no "software crisis"
+ * Stop reinventing the wheel!
+ * Software Engineering _is_ a professional field
 
 
 ## Some Questions
