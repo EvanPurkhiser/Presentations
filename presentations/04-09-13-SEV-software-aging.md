@@ -156,6 +156,16 @@ recreate structure
 # Planing ahead
 
 
+## This is a real problem!
+
+Stop worrying about "getting it to run". Don't act like there is no tomorrow
+
+
+## Convince Management
+
+When the time comes to add new features, make sure the time and people are there
+
+
 # Taking Action
 
 
