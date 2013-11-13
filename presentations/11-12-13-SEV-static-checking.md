@@ -134,3 +134,13 @@ But no one wants to write all those an annotations...
  * Dependant on the quality and completeness of the tests
  * Does _not_ verify the generated invariants
  * Various language and output format support
+
+
+# Methodology
+
+
+## Given Task
+
+ * Participants given a class to Anotate
+ * Allocated a single hour to complete the task
+ * Goal is to annotate the program until ESC/Java gives no warnings / errors (Therefore no runtime exceptions)
