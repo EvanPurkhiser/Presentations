@@ -1,4 +1,4 @@
-## Invariant Inference for Static Checking: An Emperical Evaluation
+## Invariant Inference for Static Checking: Empirical Evaluation
 
 Jeremy W. Nimmer & Michael D. Ernst
 
