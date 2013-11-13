@@ -203,4 +203,7 @@ Slightly better tests than in the tiny treatment
 
 ### Diakon: Good
 
-Ran with a test suite that provided 100% code coverage
+Ran with a test suite that provided 100% (or close) code coverage
+
+
+![Diakon Sets](diakon-sets.svg)
