@@ -304,3 +304,27 @@ Ran with a test suite that provided 100% (or close) code coverage
    * Indicates users may not understand how Houdini infers annotations
  * Average Boost was 35%
    * Houdini users receive ⅓ of the answers from the tool
+
+
+# Qualitative
+
+
+ * Users noted it's not worth incrementally fixing warnings
+ * Users noted it was difficult to eliminate some warnings
+ * ESC/Java's execution trace information was useful to some
+
+
+## Houdini
+
+ * Out of 14 users of Houdini, 3 had positive opinions
+ * It was cleaner because they didn't have to see everything
+ * Main complaint was that Houdini was slow
+ * Maybe a little _too_ magical
+
+
+## Daikon
+
+ * Half of the users commented that it was helpful
+ * Users of the {tiny,small} Daikon trials were annoyed with how many
+   annotations were created
+ * Removing incorrect annotations was easy
