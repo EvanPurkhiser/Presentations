@@ -141,14 +141,14 @@ But no one wants to write all those an annotations...
 
 ## Given Task
 
- * Participants given a class to Anotate
+ * Participants given two classes to annotate
  * Allocated a single hour to complete the task
  * Goal is to annotate the program until ESC/Java gives no warnings / errors (Therefore no runtime exceptions)
 
 
 ## Selected Programs
 
- ![Selected Programs](selected-programs.svg)
+![Selected Programs](selected-programs.svg)
 
 
 ## Participants
@@ -159,7 +159,7 @@ But no one wants to write all those an annotations...
  * Mostly graduate students from MIT or University of Washington
 
 
- ![Participants](participants.svg)
+![Participants](participants.svg)
 
 
 ## Experiment Design
