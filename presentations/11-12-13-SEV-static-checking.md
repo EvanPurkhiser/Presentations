@@ -104,3 +104,23 @@ public class StackAr {
 
 A condition that can be relied upon to be true during execution of a program, or
 during some portion of it.
+
+
+But no one wants to write all those an annotations...
+
+
+## Houdini
+
+ * An 'annotation assistant' tool
+ * Generates candidate annotation sets
+ * Checks each annotation set with ESC/Java, discarding unprovable annotations
+   until all are provable
+ * Exhaustive filtering
+
+
+### But really.. "Whodini"
+
+ * Houdini was unavailable to the researchers
+ * "Whodini" is a re-implementation based on documentation
+ * Supposedly runs faster than Houdini
+ * But still takes 10-60 seconds on the given programs..
