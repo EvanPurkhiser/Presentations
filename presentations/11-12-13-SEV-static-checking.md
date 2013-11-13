@@ -244,3 +244,63 @@ Ran with a test suite that provided 100% (or close) code coverage
 
 
 ![Results](results.svg)
+
+
+## Success
+
+ * Per project Success Rate
+   * `DisjSets` - 72%
+   * `StackAr` - 52%
+   * `QueueAr` - 0%
+ * Tool Success rate (`QueueAr` ignored)
+   * No tool - 36%
+   * Daikon / Houdini - 71%
+ * Some Programs harder to annotate than others. Tools definitely help though
+
+
+## Times
+
+ * Per project times
+   * `DisjSets` - 44 min
+   * `StackAr` - 50 min
+   * `QueueAr` - 60 min
+ * Ignoring `QueueAr`
+   * First time average is 49 min
+   * Second time average is 43 min
+ * Tools don't seem to effect the time to annotate
+
+
+## Precision
+
+ * `StackAr` & `DisjSets` - 98%
+ * `QueueAr` - 88%
+ * High precision is easy to achieve
+
+
+## Recall
+
+ * Average per program
+   * `DisjSets` - 95%
+   * `StackAr` - 85%
+   * `QueueAr` - 64%
+ * Predicted by tool used (Ignoring `QueueAr`)
+   * 76% → 95% when a tool is used
+ * Tools definitely help make progress
+
+
+## Bonus
+
+ * The tool predicted the bonus information
+   * 1.75 using Daikon: Good
+   * 1.47 using Daikon: {Tiny,Small}
+ * Suggests that Daikon was able to capture more verifiable properties
+
+
+## Unnecessary & Boost
+
+ * For the Houdini trials
+ * Average Unnecessary information was 26%
+   * Second trial users had a _higher_ percentage
+   * Indicates users may not understand how Houdini infers annotations
+ * Average Boost was 35%
+   * Houdini users receive ⅓ of the answers from the tool
