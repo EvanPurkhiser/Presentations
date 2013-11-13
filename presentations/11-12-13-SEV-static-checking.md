@@ -124,3 +124,13 @@ But no one wants to write all those an annotations...
  * "Whodini" is a re-implementation based on documentation
  * Supposedly runs faster than Houdini
  * But still takes 10-60 seconds on the given programs..
+
+
+## Daikon
+
+ * Detects program invariants dynamically during execution
+ * Examines computed values and detects patterns
+ * Invariants determined by checking at each entry / exit point
+ * Dependant on the quality and completeness of the tests
+ * Does _not_ verify the generated invariants
+ * Various language and output format support
