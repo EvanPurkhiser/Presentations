@@ -98,3 +98,9 @@ public class StackAr {
 	}
 }
 ```
+
+
+### Invariants?
+
+A condition that can be relied upon to be true during execution of a program, or
+during some portion of it.
