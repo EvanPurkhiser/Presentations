@@ -160,3 +160,47 @@ But no one wants to write all those an annotations...
 
 
  ![Participants](participants.svg)
+
+
+## Experiment Design
+
+ * All users started with 3-6 annotations already inserted
+ * 5 different 'treatments'
+   * Control
+   * Houdini
+   * Daikon {tiny,small,good}
+
+
+### Control
+
+This group did not have any tool assistance. They must add all the annotations on their own.
+
+
+### Houdini
+
+ * Provided the Houdini tool (invoked when running `escjava`)
+ * Needed to add enough annotations so Houdini could fully annotate the program
+
+
+### Daikon
+
+ * Daikon had already been run prior to receiving the program
+ * Not provided with the test suit
+ * Three different Daikon treatments
+
+
+### Diakon: Tiny
+
+ * Very few test cases
+ * Very little edge case coverage
+ * Meant to simulate projects with a poor test suite
+
+
+### Diakon: Small
+
+Slightly better tests than in the tiny treatment
+
+
+### Diakon: Good
+
+Ran with a test suite that provided 100% code coverage
