@@ -17,6 +17,7 @@ Reveal.initialize({
 	dependencies: [
 		{ src: "http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/marked.js" },
 		{ src: "http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/markdown/markdown.js" },
+		{ src: "http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/math/math.js" },
 
 		{
 			src: "http://cdn.jsdelivr.net/reveal.js/2.5.0/plugin/highlight/highlight.js",
