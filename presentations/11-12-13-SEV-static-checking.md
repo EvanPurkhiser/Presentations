@@ -229,13 +229,13 @@ Ran with a test suite that provided 100% (or close) code coverage
  * To determine 'nearest correct' answer the authors manually edited the
    annotations until they became correct.
  * Some automatic grading was done to determine correct sets - May fail with
-   essoteric annotations though
+   esoteric annotations though
 
 
 ### Computed values
 
  * **Precision** - Correctness of annotations: $\frac{correct}{written}$
- * **Recall** - The number of nessicary annotations: $\frac{correct}{verifiable}$
+ * **Recall** - The number of necessary annotations: $\frac{correct}{verifiable}$
  * **Bonus** - Additional annotations expressed: $\frac{verifiable}{minimal}$
  * **Unnecessary** - Extra effort that Houdini could have handled
  * **Boost** - How much Houdini contributed
