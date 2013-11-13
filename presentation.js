@@ -1,5 +1,6 @@
 // Get the presentation to display
-var mdUri = 'presentations/' + window.location.search.substring(1) + '.md';
+var path  = 'presentations/' + window.location.search.substring(1);
+var mdUri = path + '.md';
 
 // Set the uri to the presentation markdown file
 document.getElementById('md').setAttribute('data-markdown', mdUri);
@@ -45,8 +46,18 @@ function slidenumber(event){
 }
 
 Reveal.addEventListener('slidechanged', function(event){
-	document.querySelector(".slidenumber").innerText=slidenumber(event);
+	document.querySelector('.slidenumber').innerText=slidenumber(event);
 });
 Reveal.addEventListener('ready', function(event){
-	document.querySelector(".slidenumber").innerText=slidenumber(event);
+	document.querySelector('.slidenumber').innerText=slidenumber(event);
+
+	Array.prototype.forEach.call(document.querySelectorAll('.reveal section  img'), function(element)
+	{
+		var src = element.getAttribute('src');
+
+		if (src.indexOf('//') == -1)
+		{
+			element.src = path + '/' + src
+		}
+	});
 });
