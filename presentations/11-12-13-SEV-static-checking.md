@@ -217,3 +217,24 @@ Ran with a test suite that provided 100% (or close) code coverage
 
 
 ![Measurements](measurements.svg)
+
+
+### Measurement Techniques
+
+ * Success: Did they finish within time?
+ * To determine 'nearest correct' answer the authors manually edited the
+   annotations until they became correct.
+ * Some automatic grading was done to determine correct sets - May fail with
+   essoteric annotations though
+
+
+### Computed values
+
+ * **Precision** - Correctness of annotations: $\frac{correct}{written}$
+ * **Recall** - The number of nessicary annotations: $\frac{correct}{verifiable}$
+ * **Bonus** - Additional annotations expressed: $\frac{verifiable}{minimal}$
+ * **Unnecessiary** - Extra effort that Houdini could have handled
+ * **Boost** - How much Houdini contributed
+
+
+![Visualization](visualization.svg)
