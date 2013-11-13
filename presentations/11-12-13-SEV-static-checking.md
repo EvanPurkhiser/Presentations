@@ -151,3 +151,12 @@ But no one wants to write all those an annotations...
  ![Selected Programs](selected-programs.svg)
 
 
+## Participants
+
+ * 47 Students participated
+ * Really only 41 as 6 were disqualified
+ * Volunteers
+ * Mostly graduate students from MIT or University of Washington
+
+
+ ![Participants](participants.svg)
