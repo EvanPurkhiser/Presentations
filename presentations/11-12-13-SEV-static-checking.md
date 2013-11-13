@@ -233,7 +233,7 @@ Ran with a test suite that provided 100% (or close) code coverage
  * **Precision** - Correctness of annotations: $\frac{correct}{written}$
  * **Recall** - The number of nessicary annotations: $\frac{correct}{verifiable}$
  * **Bonus** - Additional annotations expressed: $\frac{verifiable}{minimal}$
- * **Unnecessiary** - Extra effort that Houdini could have handled
+ * **Unnecessary** - Extra effort that Houdini could have handled
  * **Boost** - How much Houdini contributed
 
 
