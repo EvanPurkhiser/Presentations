@@ -144,3 +144,10 @@ But no one wants to write all those an annotations...
  * Participants given a class to Anotate
  * Allocated a single hour to complete the task
  * Goal is to annotate the program until ESC/Java gives no warnings / errors (Therefore no runtime exceptions)
+
+
+## Selected Programs
+
+ ![Selected Programs](selected-programs.svg)
+
+
