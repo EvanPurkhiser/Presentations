@@ -207,3 +207,13 @@ Ran with a test suite that provided 100% (or close) code coverage
 
 
 ![Diakon Sets](diakon-sets.svg)
+
+
+## Measurements
+
+ * Primarily interested on the effect of the annotation tools
+ * Success and time spent are easy to measure
+ * Measuring annotations is a little harder...
+
+
+![Measurements](measurements.svg)
