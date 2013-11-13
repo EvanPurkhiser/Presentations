@@ -5,6 +5,10 @@ Jeremy W. Nimmer & Michael D. Ernst
 Presentation by Evan Purkhiser
 
 
+### 10th ACM SIGSFT symposium
+#### New York, New York, USA. November 10th 2002
+
+
 ### [Michael D. Ernst](http://homes.cs.washington.edu/~mernst/)
 
  * Associate Professor at University of Washington
