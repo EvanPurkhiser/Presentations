@@ -41,3 +41,60 @@ I'm not entirely convinced this person actually exists.
  * Offers more fine grained checking over static analysis
  * Often not used in practice due to difficulty of use
  * Known as "[Extended Static Checking](http://en.wikipedia.org/wiki/Extended_static_checkin)"
+
+
+## ESC/Java
+
+ * A Java Extended Static Checker tool
+ * Annotations must be written similar to `assert` statements
+ * Issues warnings about annotations that can't be verified
+ * Also includes suggestions for correcting the problem
+
+
+Example with annotations
+
+```java
+public class StackAr {
+	//@ invariant theArray != null
+	//@ invariant \typeof(theArray) == \type(Object[])
+	//@ invariant topOfStack >= -1
+	//@ invariant topOfStack <= theArray.length-1
+	/*@ invariant (\forall int i; (0 <= i &&
+		i <= topOfStack) ==> (theArray[i] != null)) */
+	/*@ invariant (\forall int i; (topOfStack+1 <= i &&
+		i <= theArray.length-1) ==> (theArray[i] == null)) */
+
+	private Object [ ] theArray;
+	private int topOfStack;
+
+	//@ requires capacity >= 0
+	//@ ensures capacity == theArray.length
+	//@ ensures topOfStack == -1
+	public StackAr( int capacity ) {
+		theArray = new Object[ capacity ];
+		topOfStack = -1;
+	}
+}
+```
+
+
+Continued...
+
+```java
+public class StackAr {
+	//@ modifies topOfStack, theArray[*]
+	//@ ensures (\result != null) == (\old(topOfStack) >= 0)
+	//@ ensures topOfStack <= \old(topOfStack)
+	/*@ ensures (\old(topOfStack) >= 0) ==>
+		(topOfStack == \old(topOfStack) - 1) */
+	/*@ ensures (\forall int i; (0 <= i && i <= topOfStack)
+		==> (theArray[i] == \old(theArray[i]))) */
+	public Object topAndPop( ) {
+		if( isEmpty( ) )
+			return null;
+		Object topItem = top( );
+		theArray[ topOfStack-- ] = null;
+		return topItem;
+	}
+}
+```
