@@ -328,3 +328,16 @@ Ran with a test suite that provided 100% (or close) code coverage
  * Users of the {tiny,small} Daikon trials were annoyed with how many
    annotations were created
  * Removing incorrect annotations was easy
+
+
+# Conclusion
+
+
+ * Static Checking is quite useful
+ * The assistant doesn't need to be perfect
+ * Daikon seemed to be "better"
+ * Houdini didn't clutter up code
+
+---
+
+Slides at http://github.com/EvanPurkhiser/Presentations
